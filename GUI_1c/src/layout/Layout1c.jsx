@@ -1,11 +1,16 @@
 import { View, Text,Button,TextInput ,TouchableOpacity} from "react-native";
 import React, { useState } from "react";
+import { LinearGradient } from 'expo-linear-gradient';
 import styles from "../styles/styles1_c";
 
 const Layout1C = () => {
   const [input, setInput] = useState('')
   return (
     <View>
+      <LinearGradient
+        colors={["#C8EFF1", "#2AF5AE"]}
+        style={styles.background}
+      />
       <View style={styles.header}>
         <Text style={styles.text_Top}>CODE</Text>
       </View>
