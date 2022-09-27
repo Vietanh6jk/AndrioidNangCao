@@ -1,0 +1,80 @@
+import { StyleSheet, Text, View } from 'react-native';
+
+
+const StylesSelectColor = StyleSheet.create({ 
+    contaier_view1:{
+        flex:1, 
+        flexDirection:'row',
+        alignItems: 'center',
+        justifyContent: 'center', 
+    },
+    contaier_view2:{
+        flex:3,
+        backgroundColor:'gray',
+        width:400
+    },
+    image_header:{
+        position:'absolute',
+        width:119,
+        height:126,
+        top:60,
+        left:20
+    },
+    view_3:{
+        top:30,
+        left:60,
+        width:200,
+        height:128,
+    },
+    btn_Bac:{
+        top:30,
+        left:160,
+        width:85,
+        height:80,
+        backgroundColor:'#C5F1FB'
+    },
+    btn_Do:{
+        top:60,
+        left:160,
+        width:85,
+        height:80,
+        backgroundColor:'#F30D0D'
+    },
+    btn_Den:{
+        top:90,
+        left:160,
+        width:85,
+        height:80,
+        backgroundColor:'#000000'
+    },
+    btn_Xanh:{
+        top:120,
+        left:160,
+        width:85,
+        height:80,
+        backgroundColor:'#234896'
+    },
+    btn_Xanh:{
+        top:120,
+        left:160,
+        width:85,
+        height:80,
+        backgroundColor:'#234896'
+    },
+    btn_Xong:{
+        top:160,
+        left:20,
+        width:356,
+        height:54,
+        backgroundColor:'#234896',
+        borderRadius:10,
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    text_Xong:{
+        fontWeight:'bold',
+        fontSize:20,
+        color:'#F9F2F2'
+    }
+})
+export default StylesSelectColor;
